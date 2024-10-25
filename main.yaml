@@ -1,6 +1,7 @@
 ---
 - name: Este es mi primer playbook
   hosts: localhost
+  connection: local
   tasks:
     - name: Imprimir hola mundo
       ansible.builtin.debug:
